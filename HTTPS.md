@@ -14,4 +14,4 @@ Por sus siglas **HyperText Transfer Protocol Secure (*Protocolo de transferencia
 
 * **Uso común:** HTTPS es esencial en sitios donde se manejan datos sensibles, como bancos, tiendas en línea y redes sociales. Cada vez que ingresas información personal, es mejor que el sitio use HTTPS para garantizar tu seguridad.
 
-![diagrama-https](images/diagrama-https.png)
+![https-diagram](images/https-diagram.png)

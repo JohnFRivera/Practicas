@@ -9,15 +9,15 @@ El protocolo consta de los siguientes dos pasos:
 1. **Petición:** Cuando escribes una dirección web en tu navegador y presionas "Enter", el navegador envía una solicitud HTTP al servidor donde se encuentra la página.
 2. **Respuesta:** El servidor recibe esa solicitud y responde enviando los datos solicitados, como el contenido de la página. El navegador recibe la respuesta y muestra la página web en tu pantalla.
 
-HTTP funciona en un modelo de "petición-respuesta", y es fundamental para que puedas navegar por Internet.
+HTTP funciona en un modelo de **"petición-respuesta"**, y es fundamental para que puedas navegar por Internet.
 
-![diagrama-http](images/diagrama-http.png)
+![http-diagram](images/http-diagram.png)
 
 ## A tener en cuenta
 
-Este protocolo fue creado entre 1989 y 1991 por Tim Berners-Lee, considerando la epoca en la que fue creado, este no consideraba ningún metodo de seguridad. Debido a que no todas las personas en Internet tienen buenas intenciones, este protocolo está vulnerable a todo tipo de ataques para capturar la información que se transfiere por él, ya que este metodo transfiere la información en texto plano sin ningún tipo de enciptación
+Este protocolo fue creado entre **1989 y 1991** por **Tim Berners-Lee**, considerando la epoca en la que fue creado, este no consideraba ningún metodo de seguridad. Debido a que no todas las personas en Internet tienen buenas intenciones, este protocolo está vulnerable a todo tipo de ataques para capturar la información que se transfiere por él, ya que este metodo transfiere la información en texto plano sin ningún tipo de enciptación
 
-![http-atacante](images/http-atacante.png)
+![http-attacker](images/http-attacker.png)
 
 ## Metodos
 

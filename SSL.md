@@ -18,21 +18,21 @@ Por sus siglas **Secure Sockets Layer (*Capa de sockets seguros*)**, es un proto
 
 El proceso que hace el protocolo SSL es el siguiente:
 
-1. El **Cliente** envia un mensaje al **Servidor** diciendo que desea comunicarse de forma segura.
+1. El *Cliente* envia un mensaje al *Servidor* diciendo que desea comunicarse de forma segura.
 
-2. El **Servidor** responde enviando su **Certificado SSL** para que el **Cliente** pueda verificar su autenticidad.
+2. El *Servidor* responde enviando su *Certificado SSL* para que el *Cliente* pueda verificar su autenticidad.
 
-3. El navegador obtiene la **Llave Pública del Servidor** que se encuentra en el **Certificado SSL**.
+3. El navegador obtiene la *Llave Pública del Servidor* que se encuentra en el *Certificado SSL*.
 
-4. El navegador procede a generar la **Llave Simétrica Aleatoria**, que no es más que un numero aleatorio de un tamaño especifico.
+4. El navegador procede a generar la *Llave Simétrica Aleatoria*, que no es más que un numero aleatorio de un tamaño especifico.
 
-5. Se encripta la **Llave Simétrica Aleatoria** utilizando la **Llave Pública del Servidor**, y es enviada al **Servidor**.
+5. Se encripta la *Llave Simétrica Aleatoria* utilizando la *Llave Pública del Servidor*, y es enviada al *Servidor*.
 
-6. Una vez llega al **Servidor**, la **Llave Simétrica Aleatoria** es desencriptada utilizando la **Llave Privada del Servidor**.
+6. Una vez llega al *Servidor*, la *Llave Simétrica Aleatoria* es desencriptada utilizando la *Llave Privada del Servidor*.
 
-7. Ahora tanto **Cliente** como **Servidor** tienen la **Llave Simétrica Aleatoria**, esto hace que todos los datos enviados o recibidos por el *Protocolo HTTPS* puedan ser encriptados o desencriptados facilmente por ambas partes.
+7. Ahora tanto *Cliente* como *Servidor* tienen la *Llave Simétrica Aleatoria*, esto hace que todos los datos enviados o recibidos por el [Protocolo HTTPS](https://github.com/JohnFRivera/Practicas/blob/master/HTTPS.md "Protocolo HTTPS") puedan ser encriptados o desencriptados facilmente por ambas partes.
 
-![diagrama-ssl](images/diagrama-ssl.png)
+![ssl-diagram](images/ssl-diagram.png)
 
 ## ¿Y el TLS?
 
